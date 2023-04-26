@@ -1,0 +1,18 @@
+.header {
+    @media screen and (max-width: 767px) {
+        padding-top: 22px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 16px;
+    }
+
+    @media screen and (min-width: 1360px) {
+        padding-top: 32px;
+    }
+
+}
+
+.header-container {
+    padding-left: 24px;
+}

@@ -1,2 +1,4 @@
-@import './common';
-@import './example';
+@import './base/common.scss';
+@import './utils/variables.scss';
+@import './components/container.scss';
+@import './layout/header.scss';
