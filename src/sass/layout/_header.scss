@@ -14,9 +14,13 @@
   background-color: darkslategray;
 }
 
-// .header-container {
-//     padding-left: 24px;
-// }
+.main-nav {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
 .header-logo {
   display: flex;
