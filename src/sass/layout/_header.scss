@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  width: 100%;
+  top:0;
+  left:0;
   @media screen and (max-width: 767px) {
     padding-top: 22px;
   }
@@ -11,7 +15,7 @@
     padding-top: 32px;
   }
 
-  background-color: darkslategray;
+  // background-color: darkslategray;
 }
 
 .main-nav {
@@ -112,5 +116,9 @@
       @media screen and (min-width: 768px) {
         font-size: 18px;
         line-height: 1.39;
+      }
+
+      &:hover, &:focus {
+        text-decoration: underline;
       }
 }

@@ -1,10 +1,115 @@
 .hero {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(./../images/home/showcase.jpg);
+
+  @media screen and (min-device-pixel-ratio: 2x),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(./../images/home/showcase@2x.jpg);
+  }
+}
+
+.hero .container {
+  padding-top: 160px;
+  padding-bottom: 104px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 378px;
+    padding-bottom: 378px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    padding-top: 272px;
+    padding-bottom: 270px;
+  }
+}
+
+.hero-title {
+  color: var(--secondary-color);
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    width: 241px;
+
+    font-size: 40px;
+    line-height: 1.35;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 55px;
+    line-height: 1.36;
+  }
+}
+
+.hero-text {
+  padding-top: 16px;
+
+  font-size: 26px;
+  line-height: 1.23;
+
+  text-align: center;
+
+  color: var(--secondary-color);
+
+  @media screen and (min-width: 768px) {
     margin-left: auto;
     margin-right: auto;
+    width: 523px;
+    font-size: 40px;
+    line-height: 1.2;
+  }
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/home/showcase.jpg);;
+  @media screen and (min-width: 1360px) {
+    width: 100%;
+  }
 }
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 24px;
+
+  &:hover, &:focus {
+    background-color: #2EBF4F;
+  }
+
+  // &::before {
+  //   content: '';
+
+  //   width: 9px;
+  //   height: 18px;
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-image: url('./../images/sprite.svg#icon-arrow');
+  //   color: #fff;
+  // }
+}
+
+// .hero-icon {
+//   fill: currentColor;
+// }

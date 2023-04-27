@@ -6,6 +6,7 @@ body {
 }
 
 p, 
+button,
 h1, 
 h2, 
 h3, 
@@ -24,4 +25,18 @@ ul {
 a {
     text-decoration: none;
     font-family: inherit;
+}
+
+.btn {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 1.39;
+}
+
+.btn-accent {
+    background-color: #28A745;
+    color: var(--secondary-color);
 }
