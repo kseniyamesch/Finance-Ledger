@@ -49,43 +49,18 @@
 
 .about-pre-title {
   color: var(--secondary-color);
-
-  font-size: 16px;
-  line-height: 1.38;
-
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-    line-height: 1.39;
-  }
 }
 
 .about-title {
   margin-top: 16px;
 
   color: var(--secondary-color);
-
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 1.38;
-
-  @media screen and (min-width: 768px) {
-    font-size: 40px;
-    line-height: 1.2;
-  }
 }
 
 .about-text {
   margin-top: 24px;
 
   color: var(--secondary-color);
-
-  font-size: 16px;
-  line-height: 1.38;
-
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-    line-height: 1.39;
-  }
 }
 
 .about-btn {

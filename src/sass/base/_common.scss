@@ -40,3 +40,34 @@ a {
     background-color: #28A745;
     color: var(--secondary-color);
 }
+
+.pre-title {
+    font-size: 16px;
+    line-height: 1.38;
+  
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+      line-height: 1.39;
+    }
+}
+
+.title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.38;
+  
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+      line-height: 1.2;
+    }
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.38;
+  
+    @media screen and (min-width: 768px) {
+      font-size: 18px;
+      line-height: 1.39;
+    }
+}
