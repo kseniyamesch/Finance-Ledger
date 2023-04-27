@@ -1,0 +1,54 @@
+.blog-left {
+  max-width: 100%;
+  height: 247px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./../images/home/blog.jpg');
+
+  @media screen and (min-device-pixel-ratio: 2x),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('./../images/home/blog.jpg');
+  }
+}
+
+.blog-right {
+  padding-top: 48px;
+  padding-bottom: 58px;
+
+  background-color: #0284d0;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 59px;
+    padding-bottom: 59px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.blog-pre-title {
+  color: var(--secondary-color);
+}
+
+.blog-title {
+  margin-top: 16px;
+  color: var(--secondary-color);
+}
+
+.blog-text {
+  margin-top: 24px;
+  color: var(--secondary-color);
+}
+
+.blog-btn {
+    margin-top: 24px;
+
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+
+    background-color: transparent;
+}
