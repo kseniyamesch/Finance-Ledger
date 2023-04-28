@@ -60,11 +60,14 @@
 }
 .name-field {
   margin-bottom: 16px;
-  position: relative;
 
   @media screen and (min-widt: 1360px) {
     margin-bottom: 26px;
   }
+}
+
+.form-field {
+  position: relative;
 }
 
 .form-input {
