@@ -33,15 +33,15 @@
   margin-top: 63px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 24px;
+    margin-top: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  @media screen and (min-width: 768px) {
-    padding-top: 36px;
+  @media screen and (min-width: 1360px) {
+    margin-top: 36px;
   }
 }
 
