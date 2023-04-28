@@ -78,11 +78,6 @@
   padding-left: 8px;
 }
 
-.form-input:focus + .form-label,
-.form-input:not(:placeholder-shown) + .form-label {
-  transform: translateY(-46px);
-}
-
 .form-label {
   font-size: 16px;
   line-height: 1.44;
@@ -101,6 +96,11 @@
     font-size: 18px;
     line-height: 1.39;
   }
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-46px);
 }
 
 .form-btn {
