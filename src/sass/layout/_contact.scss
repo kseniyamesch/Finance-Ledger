@@ -108,6 +108,10 @@
   color: var(--secondary-color);
   background-color: #28a745;
 
+  &:hover{
+    background-color: #2EBF4F;
+  }
+
   @media screen and (min-widt: 1360px) {
     margin-top: 40px;
   }

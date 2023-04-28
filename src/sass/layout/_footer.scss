@@ -1,0 +1,38 @@
+.footer {
+    background-color: #333333;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list {
+    margin-bottom: 12px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
+}
+.footer-icon {
+    fill: var(--secondary-color);
+}
+.footer-link:hover .footer-icon {
+    fill: #28A745;
+}
+
+.footer-item {
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+.footer-text {
+    color: var(--secondary-color);
+    text-align: center;
+}
