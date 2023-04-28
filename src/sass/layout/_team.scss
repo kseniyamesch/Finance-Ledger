@@ -1,0 +1,28 @@
+.team .container {
+    padding-top: 72px;
+    padding-bottom: 50px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1360px) {
+        padding-top: 80px;
+        padding-bottom: 88px;
+    }
+}
+
+.team-pre-title {
+    text-align: center;
+}
+
+.team-title {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.team-text {
+    text-align: center;
+    padding-top: 24px;
+}
