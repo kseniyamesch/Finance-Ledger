@@ -1,21 +1,27 @@
 .header {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   width: 100%;
   top:0;
   left:0;
   @media screen and (max-width: 767px) {
     padding-top: 22px;
+    padding-bottom: 22px;
   }
 
   @media screen and (min-width: 768px) {
     padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   @media screen and (min-width: 1360px) {
     padding-top: 32px;
+    padding-bottom: 32px;
   }
+}
 
-  // background-color: darkslategray;
+.active {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .main-nav {
