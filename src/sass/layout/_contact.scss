@@ -108,6 +108,8 @@
   color: var(--secondary-color);
   background-color: #28a745;
 
+  transition: background-color 250ms linear;
+
   &:hover{
     background-color: #2EBF4F;
   }

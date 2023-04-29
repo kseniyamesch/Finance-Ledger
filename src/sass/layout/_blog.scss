@@ -66,6 +66,8 @@
 
     background-color: transparent;
 
+    transition: all 250ms linear;
+    
     &:hover, &:focus {
         background-color: #F4F4F4;
         color: #0284D0;
