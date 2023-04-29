@@ -98,18 +98,15 @@
     background-color: #2EBF4F;
   }
 
-  // &::before {
-  //   content: '';
-
-  //   width: 9px;
-  //   height: 18px;
-  //   background-size: cover;
-  //   background-position: center;
-  //   background-image: url('./../images/sprite.svg#icon-arrow');
-  //   color: #fff;
-  // }
+  &::before {
+content: '';
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url('./../images/arrow.svg');
+width: 9px;
+height: 12px;
+margin-right: 8px;
+  }
 }
 
-// .hero-icon {
-//   fill: currentColor;
-// }
