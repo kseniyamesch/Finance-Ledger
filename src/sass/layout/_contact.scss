@@ -110,8 +110,8 @@
 
   transition: background-color 250ms linear;
 
-  &:hover{
-    background-color: #2EBF4F;
+  &:hover, &:focus {
+    background-color: rgba(40, 167, 69, .8);
   }
 
   @media screen and (min-widt: 1360px) {
