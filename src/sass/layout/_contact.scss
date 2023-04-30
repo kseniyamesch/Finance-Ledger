@@ -141,3 +141,11 @@
     background-image: url(./../images/form/worning.svg);
   }
 }
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}

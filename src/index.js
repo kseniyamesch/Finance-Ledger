@@ -29,12 +29,18 @@ window.addEventListener('scroll', function() {
   const form = document.querySelector('.contact-form');
   const formBtn = document.querySelector('.form-btn');
   const formValue = document.querySelector('.form-input').value;
-
+const warning = document.querySelector('.form-text');
   
   form.addEventListener ('submit', handleFormSubmit)
 
   function handleFormSubmit (evt) {
     evt.preventDefault();
 
+if(!evt.currentTarget.elements.email.value) {
+varning.classList.add('visible');
+} else {
+  warning.classList.remove('visible');
+  warning.classList.add('invisible');
+}
     console.dir(evt.currentTarget.elements);
   }
