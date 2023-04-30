@@ -37,7 +37,7 @@ const warning = document.querySelector('.form-text');
     evt.preventDefault();
 
 if(!evt.currentTarget.elements.email.value) {
-varning.classList.add('visible');
+warning.classList.add('visible');
 } else {
   warning.classList.remove('visible');
   warning.classList.add('invisible');
