@@ -30,7 +30,7 @@ const formBtn = document.querySelector('.form-btn');
 const modal = document.querySelector('.backdrop');
 const modalBtn = document.querySelector('.modal-btn');
 
-const warning = document.querySelector('.form-text');
+const warningElem = document.querySelector('.form-text');
 
 form.addEventListener('submit', handleFormSubmit);
 
@@ -38,11 +38,11 @@ function handleFormSubmit(evt) {
   evt.preventDefault();
 
   if (!evt.currentTarget.elements.email.value) {
-    warning.classList.add('visible');
+    warningElem.classList.add('visible');
     return;
   } else {
-    warning.classList.remove('visible');
-    warning.classList.add('invisible');
+    warningElem.classList.remove('visible');
+    warningElem.classList.add('invisible');
 
     modal.classList.remove('is-hidden');
 
