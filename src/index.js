@@ -1,4 +1,4 @@
-import './js/modernizr-custom';
+// Smooth scroll
 
 const anchors = document.querySelectorAll('a[href*="#"]')
 
@@ -22,3 +22,19 @@ window.addEventListener('scroll', function() {
       document.querySelector('.header').classList.remove('active')
     }
   })
+
+
+  // Form validation 
+
+  const form = document.querySelector('.contact-form');
+  const formBtn = document.querySelector('.form-btn');
+  const formValue = document.querySelector('.form-input').value;
+
+  
+  form.addEventListener ('submit', handleFormSubmit)
+
+  function handleFormSubmit (evt) {
+    evt.preventDefault();
+
+    console.dir(evt.currentTarget.elements);
+  }

@@ -5,14 +5,26 @@
       <h2 class="title contact-title">Request Callback</h2>
       <form action="" class="contact-form" autocomplete="off">
         <div class="form-field name-field">
-          <input type="input" id="name" class="form-input" required placeholder=" "/>
+          <input
+            type="input"
+            id="name"
+            name="name"
+            class="form-input"
+            placeholder=" "
+          />
           <label for="name" class="form-label">Enter your name</label>
-          
         </div>
         <div class="form-field">
-          <input type="email" id="email" class="form-input" required placeholder=" "/>
-          <label for="email" class="form-label" >Enter email*</label>
-          
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-input"
+            required
+            placeholder=" "
+          />
+          <label for="email" class="form-label">Enter email*</label>
+          <p class="form-text">This is a required field</p>
         </div>
 
         <button type="submit" class="btn form-btn">Send</button>

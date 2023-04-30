@@ -118,3 +118,21 @@
     margin-top: 40px;
   }
 }
+
+.form-text {
+  display: flex;
+  align-items: center;
+  color: red;
+  margin-top: 8px;
+
+
+  &::before {
+    content: '';
+    width: 16px;
+    height: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./../images/form/worning.svg);
+  }
+}
